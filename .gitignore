@@ -1,0 +1,9 @@
+# CLion
+**/cmake-build-debug/
+**/.idea/
+
+# STM32CubeMX
+**/Core/Src/Backup/
+
+# openocd_conf
+**/stm32f4discovery.cfg
