@@ -1,6 +1,8 @@
 # CLion
 **/cmake-build-debug/
 **/.idea/
+**/CMakeLists.txt
+**/CMakeLists_template.txt
 
 # STM32CubeMX
 **/Core/Src/Backup/
