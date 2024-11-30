@@ -215,6 +215,14 @@ void loop(void) {
 
 至此实现了STM32与ROS的**双向通信**，后面可以拿来做一些好玩的东西了。
 
+---
+
+测试STM32F103C8Tx单片机，其FLASH为64K，无法装下程序，故推荐FLASH大小为80K左右。
+
+![image-20241130185002474](https://cdn.jsdelivr.net/gh/MDLZCOOL/blog-img/img/image-20241130185002474.png)
+
+---
+
 ## 🤩 致谢：
 
 [yoneken/rosserial_stm32](https://github.com/yoneken/rosserial_stm32)
