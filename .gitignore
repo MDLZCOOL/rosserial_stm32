@@ -8,4 +8,4 @@
 **/Core/Src/Backup/
 
 # openocd_conf
-**/stm32f4discovery.cfg
+**/*.cfg
