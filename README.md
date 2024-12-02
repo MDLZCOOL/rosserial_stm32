@@ -223,6 +223,6 @@ void loop(void) {
 
 ---
 
-## 🤩 致谢：
+## 🤩 致谢
 
 [yoneken/rosserial_stm32](https://github.com/yoneken/rosserial_stm32)
