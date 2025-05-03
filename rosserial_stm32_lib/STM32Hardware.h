@@ -2,6 +2,7 @@
  * Software License Agreement (BSD License)
  *
  * Copyright (c) 2018, Kenta Yonekura (a.k.a. yoneken)
+ * Copyright (c) 2025, MDLZCOOL
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
