@@ -35,20 +35,35 @@
 #ifndef ROS_STM32_HARDWARE_H_
 #define ROS_STM32_HARDWARE_H_
 
-// define your device
-
-#ifdef STM32F3xx
+#if __has_include("stm32f0xx_hal.h")
+#include "stm32f0xx_hal.h"
+#if __has_include("stm32f1xx_hal.h")
+#include "stm32f1xx_hal.h"
+#elif __has_include("stm32f2xx_hal.h")
+#include "stm32f2xx_hal.h"
+#elif __has_include("stm32f3xx_hal.h")
 #include "stm32f3xx_hal.h"
-#include "stm32f3xx_hal_uart.h"
-#endif /* STM32F3xx */
-#ifdef STM32F4xx
+#elif __has_include("stm32f4xx_hal.h")
 #include "stm32f4xx_hal.h"
-#include "stm32f4xx_hal_uart.h"
-#endif /* STM32F4xx */
-#ifdef STM32F7xx
+#elif __has_include("stm32f7xx_hal.h")
 #include "stm32f7xx_hal.h"
-#include "stm32f7xx_hal_uart.h"
-#endif /* STM32F7xx */
+#elif __has_include("stm32h7xx_hal.h")
+#include "stm32h7xx_hal.h"
+#elif __has_include("stm32h7rsxx_hal.h")
+#include "stm32h7rsxx_hal.h"
+#elif __has_include("stm32g0xx_hal.h")
+#include "stm32g0xx_hal.h"
+#elif __has_include("stm32g4xx_hal.h")
+#include "stm32g4xx_hal.h"
+#elif __has_include("stm32l0xx_hal.h")
+#include "stm32l0xx_hal.h"
+#elif __has_include("stm32l1xx_hal.h")
+#include "stm32l1xx_hal.h"
+#elif __has_include("stm32l4xx_hal.h")
+#include "stm32l4xx_hal.h"
+#elif __has_include("stm32l5xx_hal.h")
+#include "stm32l5xx_hal.h"
+#endif
 
 extern UART_HandleTypeDef huart1;
 
