@@ -113,7 +113,7 @@ int main(void){
 
 6. 修改`STM32Hardware.h`，具体为：
 
-   - 定义自己的设备头（如果预处理部分没有你的设备，请自己加上）
+   - （注意注意！这一步在 [#0b769c8](https://github.com/MDLZCOOL/rosserial_stm32/commit/0b769c8a64fb37ad54a39b7a6ea32c3498a91ea8) 后已经不再需要）定义自己的设备头（如果预处理部分没有你的设备，请自己加上）
 
 ![image-20241129193813695](https://cdn.jsdelivr.net/gh/MDLZCOOL/blog-img/img/image-20241129193813695.png)
 
