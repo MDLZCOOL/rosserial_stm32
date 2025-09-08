@@ -217,7 +217,8 @@ void loop(void) {
 
 ---
 
-测试STM32F103C8Tx单片机，其FLASH为64K，无法装下程序，故推荐FLASH大小为80K左右。
+注意：下面的测试未开启优化。
+测试STM32F103C8Tx单片机，其FLASH为64K，无法装下程序，故推荐FLASH大小为80K左右（未开优化）。
 
 ![image-20241130185002474](https://cdn.jsdelivr.net/gh/MDLZCOOL/blog-img/img/image-20241130185002474.png)
 
