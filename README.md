@@ -1,3 +1,5 @@
+rosserial仅支持ROS1，如果使用ROS2可以使用micro-ROS。
+
 # rosserial_stm32
 
 ## 📖 介绍
